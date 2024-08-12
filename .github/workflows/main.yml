@@ -5,7 +5,8 @@ jobs:
 ubuntu-20:
   runs-on: ubuntu-20
   steps:
-    - name: Checkout code
+   # Checkout the code and run tests
+  - name: Checkout code
     uses: actions/checkout@v4
   - name: Run tests
     uses: actions/run-tests@v2
