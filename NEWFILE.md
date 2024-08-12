@@ -1,2 +1,1 @@
-Hi, hi
-Я сделаль
+new string
